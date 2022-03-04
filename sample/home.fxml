@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="900.0" prefWidth="1400.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.homeController">
+   <children>
+      <Text fill="#2dc217" layoutX="45.0" layoutY="111.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SORTING" textAlignment="CENTER" wrappingWidth="167.6708984375" x="10.0">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Text>
+      <Button layoutX="248.0" layoutY="82.0" mnemonicParsing="false" onAction="#bubblesimulationclicked" prefHeight="40.0" prefWidth="152.0" text="SIMULATE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font></Button>
+      <Text fill="#2dc217" layoutX="111.0" layoutY="188.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BFS" wrappingWidth="54.13671875">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Text>
+      <Button fx:id="BfsButton" layoutX="248.0" layoutY="157.0" mnemonicParsing="false" onAction="#BFSsimulationclicked" prefHeight="40.0" prefWidth="152.0" text="SIMULATE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
